@@ -14,7 +14,7 @@ class ScanDelegate(DefaultDelegate):
         elif isNewData and dev.addr in MAC_LIST:
             print("Received new data from", dev.addr)'''
 
-MAC_LIST = {"dc:0d:30:48:45:69"}
+MAC_LIST = {"dc:0d:30:48:45:69","dc:0d:30:48:45:8E","dc:0d:30:48:45:67"}
 SERVER_ADDRESS = "http://192.168.43.100:8080/bleapp/postIt"
 HEADERS = {'Content-Type':'application/json'}
 
